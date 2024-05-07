@@ -1,0 +1,382 @@
+@media screen and (max-width: 480px) {
+/* start navebar */
+.hader-section h1 {
+    font-size: 30px;
+}
+.navebar-section .open{
+    display: flex;
+}
+.navebar-section .uls ul .close{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+.navebar-section .icons ul {
+    display: none;
+}
+.navebar-section .uls ul {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.navebar-section .uls ul li{
+    margin-block:20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #6B6B6B;
+}
+/* end navebar */
+
+/* start About */
+.titel h2{
+    font-size: 60px;
+}
+.titel p{
+    font-size: 24px;
+}
+.about .about-content{
+    flex-wrap: wrap;
+}
+.about .about-content .content{
+    width: 100%;
+}
+.about .about-content .info{
+    width: 100%; 
+}
+.about .data{
+    flex-wrap: wrap;
+}
+.about .data .info{
+    width: calc(100/2 - 20px);
+}
+/* end About */
+
+/* start services */
+.services .services-card{
+    flex-wrap: wrap;
+}
+.services .services-card .card{
+    width:calc(100%/1);
+}
+/* end services */
+
+/* start Resume */
+.resume .seves{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.resume .seves .card{
+    width: 100%;
+}
+.resume .skills{
+    margin-left:7%;
+}
+.skils{
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.skils .first,.sacand{
+   padding: 20px;
+   width: 100%;
+}
+/* end Resume */
+
+/* start  My Work */
+.work .grid-desing {
+    grid-template-areas: 
+    "progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1" 
+    "progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2" 
+    "progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3" 
+    "progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4" 
+    "progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5"
+    "progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6"
+    "progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7" 
+    ;
+}
+/* end  My Work */
+
+/* start  Client */
+.main-contant {
+    flex-wrap: wrap;
+}
+.main-contant .item{
+    width: 100%;
+}
+/* end  Client */
+
+/* start contact */
+.contact .contant-fonrm{
+    flex-wrap: wrap;
+}
+.contact .contant-fonrm .content-info{
+    width: 100%;
+}
+.contact .form{
+    margin-top: 20px;
+    width: 100%;
+}
+/* end contact */
+
+/* start footer */
+.footer .info{
+    flex-wrap: wrap;
+}
+.footer .info p{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footer .info ul{
+    width: 100%;
+   justify-content: center;
+}
+/* end footer */
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+/* start navebar */
+.hader-section h1 {
+    font-size: 30px;
+}
+.navebar-section .open{
+    display: flex;
+}
+.navebar-section .uls ul .close{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+.navebar-section .icons ul {
+    display: none;
+}
+.navebar-section .uls ul {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.navebar-section .uls ul li{
+    margin-block:20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #6B6B6B;
+}
+/* end navebar */
+
+/* start About */
+
+.titel h2{
+    font-size: 60px;
+}
+.titel p{
+    font-size: 24px;
+}
+
+.about .about-content{
+    flex-wrap: wrap;
+}
+.about .about-content .content{
+    width: 100%;
+}
+.about .about-content .info{
+    width: 100%; 
+}
+.about .data{
+    flex-wrap: wrap;
+}
+.about .data .info{
+    width: calc(100/3 - 20px);
+}
+/* end About */
+
+/* start services */
+.services .services-card{
+    flex-wrap: wrap;
+}
+.services .services-card .card{
+    width:calc(100%/1);
+}
+/* end services */
+
+/* start Resume */
+.resume .seves{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.resume .seves .card{
+    width: 100%;
+}
+.resume .skills{
+    margin-left:4%;
+}
+.skils{
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.skils .first,.sacand{
+   padding: 20px;
+   width: 100%;
+}
+/* end Resume */
+
+/* start  My Work */
+.work .grid-desing {
+    grid-template-areas: 
+    "progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1 progect1" 
+    "progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2 progect2" 
+    "progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3 progect3" 
+    "progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4 progect4" 
+    "progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5 progect5"
+    "progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6 progect6"
+    "progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7 progect7" 
+    ;
+}
+/* end  My Work */
+
+/* start  Client */
+.main-contant {
+    flex-wrap: wrap;
+}
+.main-contant .item{
+    width: 100%;
+}
+/* end  Client */
+
+/* start contact */
+.contact .contant-fonrm{
+    flex-wrap: wrap;
+}
+.contact .contant-fonrm .content-info{
+    width: 100%;
+}
+.contact .form{
+    margin-top: 20px;
+    width: 100%;
+}
+/* end contact */
+/* start footer */
+.footer .info{
+    flex-wrap: wrap;
+}
+.footer .info p{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footer .info ul{
+    width: 100%;
+   justify-content: center;
+}
+/* end footer */
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+/* start navebar */
+.hader-section h1 {
+    font-size: 30px;
+}
+.navebar-section .open{
+    display: flex;
+}
+.navebar-section .uls ul .close{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+.navebar-section .icons ul {
+    display: none;
+}
+.navebar-section .uls ul {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.navebar-section .uls ul li{
+    margin-block:20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #6B6B6B;
+}
+/* end navebar */
+
+/* start About */
+.about .about-content{
+    flex-wrap: wrap;
+}
+.about .about-content .content{
+    width: 100%;
+}
+.about .about-content .info{
+    width: 100%; 
+}
+.about .data{
+    flex-wrap: wrap;
+}
+.about .data .info{
+    width: calc(100/3 - 20px);
+}
+/* end About */
+
+/* start services */
+.services .services-card{
+    flex-wrap: wrap;
+}
+.services .services-card .card{
+    width:calc(100%/1);
+}
+/* end services */
+
+/* start contact */
+.contact .contant-fonrm{
+    flex-wrap: wrap;
+}
+.contact .contant-fonrm .content-info{
+    width: 100%;
+}
+.contact .form{
+    margin-top: 20px;
+    width: 100%;
+}
+/* end contact */
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+/* start navebar */
+.navebar-section .open{
+    display: flex;
+}
+.navebar-section .uls ul .close{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+.navebar-section .icons ul {
+    display: none;
+}
+.navebar-section .uls ul {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.navebar-section .uls ul li{
+    margin-block:20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #6B6B6B;
+}
+/* end navebar */
+}
+
